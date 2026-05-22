@@ -1,0 +1,19 @@
+The Commercial License grants you, the Purchaser a non-exclusive, non-transferrable right to make use of the work that you acquire (Work). Your use of the Work, under the Regular License, is subject to the following conditions.
+
+A) Your use of the Work is limited to a single application.
+
+B) Where the Work is an installable software application designed to help perform singular specific tasks, the use of the Work is limited to a single concurrent usage. In these cases, the “single application” of the Work is its installation.
+
+C) You may use the Work alone or you may incorporate the Work into another work you are creating.
+
+D) Unless you have our prior written consent, you must not directly or indirectly license, sub-license, sell or resell or provide for free the Work or offer to do any of these things. All of these things are referred to as Resale.
+
+E) You may use the Work in a work which you are creating for your own purposes or for your client who has asked you to create it.
+
+F) You must not incorporate the Work in a work which is created for Resale by you or your client.
+
+G) If the Work is used or incorporated in a work there is no restriction on the number of copies of that work that can be reproduced and distributed (provided the use/incorporation remains a single application and the copies are not for Resale).For example, you may incorporate the Work, such as a graphic, in a brochure you design for your client. An unlimited number of copies of the brochure incorporating the Work may be made but the Work cannot be incorporated in any other application. The brochures must be distributed to recipients at no charge to the recipient.
+
+H) Notwithstanding the restriction on Resale, if you acquire the Work on behalf of your client you may recoup from your client the cost of acquiring the Work.
+
+I) If the whole, or part, of the Work has been created using materials that are the subject of a GNU General Public License (GPL), your use of the Work (or part Work) is subject to the specific terms of the GPL in place of the foregoing conditions (to the extent the GPL applies).
