@@ -1,0 +1,10 @@
+{
+  "front": {
+    "js": [
+      "../js/jquery-ui/jquery-ui.min.js"
+    ],
+    "css": [
+      "../js/jquery-ui/--jquery-ui.min.css"
+    ]
+  }
+}

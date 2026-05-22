@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jan, 2020, 2:44:48 PM
+    Author     : velocity-1650
+*/
+/*
+ * Description
+ * This file is added by Anshul to show the Checkout behavior data. It basically captures the fields which are filled before leaving the cart abandoned
+ * and show the same in Checkout Behavior tab field wise. It shows the data of Email, Shipping Method, Payment Method, Shipping Address & Invoice Address.
+ * Feature: Checkout Behavior (Jan 2020)
+ */
+
+ .kb_progress{
+    height: 26px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+    overflow: visible;
+    position: relative;
+}
+ .kb_progress .kb_progress-bar{
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+    animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+}
+ .kb_progress-bar .kb_progress-value{
+    width: 50px;
+    height: 100%;
+    background: #000;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    line-height: 27px;
+    top: 0;
+    left: 0;
+}
+ .kb_progress:after,
+.kb_progress .kb_progress-bar:after,
+.kb_progress .kb_progress-value:after{
+    content: "";
+    border-left: 13px solid rgba(0,0,0,0.1);
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -13px;
+}
+.kb_progress-bar-striped, .kb_progress-striped .kb_progress-bar{
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;    
+    height: 100%;
+    background-color: #F0AD4E;
+}
+.kb_progress .kb_progress-bar:after{ border-left-color: #F0AD4E; }
+.kb_progress-bar {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+ .kb_progress.red .kb_progress-bar:after{ border-left-color: #d9534f; }
+ .kb_progress .kb_progress-value:after{ border-left: 13px solid #000; }
+ .kb_progress.blue .kb_progress-bar:after{ border-left-color: #5bc0de; }
+ .kb_progress.yellow .kb_progress-bar:after{ border-left-color: #f0ad4e; }
+ .kb_progress.green .kb_progress-bar:after{ border-left-color: #5cb85c; }
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+.kb_cb_data{
+    border: 1px solid #ccc;
+    padding: 15px 50px;
+    margin: 0 0 25px 0;
+    background-color: white;
+}
+
+.kb_cb_data .kb_title {
+    font-size: 18px;
+    margin-bottom: 5px
+}
+.kb_cb_data .kb_description {
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 18px;
+}
+.kb_cb_data .kb_count {
+        margin-bottom: 10px;
+        font-size: 20px;
+}
+.kb_cb_data .kb_percentage {
+   color: green;
+}
+.kb_cb_bar_main_container .kb_cb_bar_list {
+    margin: 15px 0 0 0;
+}
+.kb_cb_bar_main_container .kb_cb_bar_container {
+    margin-bottom: 20px;
+}
+.kb_cb_bar_main_container .kb_cb_bar_container .kb_cb_bar_field{
+    float: left;
+    width: 50%;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.kb_cb_bar_main_container .kb_cb_bar_container .asterisk{
+    color: #ff6633;
+    margin-left: 5px;
+}
+
+#ui-datepicker-div {
+        z-index: 100000 !important;
+}
